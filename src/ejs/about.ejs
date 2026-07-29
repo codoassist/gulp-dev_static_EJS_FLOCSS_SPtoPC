@@ -1,0 +1,21 @@
+<%
+/* このページだけの設定。ページごとに書き換えます */
+const title = "私たちについて｜SITE NAME";
+const description = "会社紹介のページです。";
+%>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<%- include("./partials/_head", { title, description }) %>
+</head>
+
+<body>
+<%- include("./partials/_header") %>
+
+  <main class="l-main">
+    <h1>私たちについて</h1>
+  </main>
+
+<%- include("./partials/_footer") %>
+</body>
+</html>
